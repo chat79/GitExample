@@ -1,9 +1,9 @@
 <?php
 
-$str = "안녕하세요";
 
-$user  = '철수';
+function subprint($a,$b){
+    echo $a.$b;
+}
 
-echo $user . $str;
-
+echo subprint('a','b');
 ?>
